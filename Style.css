@@ -1,0 +1,98 @@
+header {
+
+    border: 1 dotted;
+    color: black;
+    text-align: center;
+    background-image: url('https://ecovelo.com/wp-content/uploads/2019/03/Grey-Background.jpg');
+
+
+}
+
+.Logo {
+    position: absolute;
+    top: 25px;
+    left: 1450px;
+
+}
+
+body {
+    background-image: url(https://img1.freepng.fr/20180811/rey/kisspng-product-github-inc-cardboard-github-11-icon-free-cardboard-social-i-5b6e827dbb1566.6900923615339690217663.jpg)
+
+}
+
+#barre_fixe {
+
+    width: 100%;
+    background: #2f2f30;
+    height: 5px;
+}
+
+footer {
+    background-color: #2a1c7e;
+}
+
+td /* Toutes les cellules des tableaux... */
+{
+    border: 5px solid black; /* auront une bordure de 1px */
+}
+
+Table {
+    margin-left: 300px;
+    width: 800px;
+    font-family: cursive;
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+}
+
+}
+#navigation li {
+    display: inline;
+}
+
+
+ul {
+
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.box1 {
+    position: relative;
+    top: 40px;
+    left: 300px;
+    width: 800px;
+    font-family: cursive;
+    display: block;
+    margin-block-end 15px;
+    margin-block-start 15px;
+    margin-bottom 15px;
+    margin-inline-end 0px;
+    margin-inline-start 0px;
+    margin-left 0px;
+    text-align: justify;
+
+}
+
+.box2 {
+    display: block;
+    position: relative;
+    top: 40px;
+    left: 300px;
+    width: 800px;
+    font-family: cursive;
+    text-align: justify;
+
+}
+
+test:hover {
+    background-color: greenyellow;;
+}
