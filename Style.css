@@ -9,7 +9,7 @@ header {
 }
 
 .Logo {
-    position: absolute;
+
     top: 25px;
     left: 1450px;
 
@@ -19,6 +19,15 @@ body {
     background-image: url(https://img1.freepng.fr/20180811/rey/kisspng-product-github-inc-cardboard-github-11-icon-free-cardboard-social-i-5b6e827dbb1566.6900923615339690217663.jpg)
 
 }
+#navigation
+{
+    position: fixed ;
+
+    top:15px;
+}
+
+
+
 
 #barre_fixe {
 
@@ -28,7 +37,7 @@ body {
 }
 
 footer {
-    background-color: #2a1c7e;
+    background-color: cornsilk;
 }
 
 td /* Toutes les cellules des tableaux... */
@@ -94,5 +103,17 @@ ul {
 }
 
 test:hover {
-    background-color: greenyellow;;
+    background-color: greenyellow;
+    strong     ;
 }
+
+.positioned {
+    position: relative;
+    font-family: cursive;
+
+    left: 200px;
+    width: 1200px;;
+    text-align: justify;
+}
+@media screen and (min-width: 650px) {
+    ul {
